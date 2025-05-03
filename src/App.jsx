@@ -1,5 +1,7 @@
 
-import './App.css'
+import './App.css';
+//importation de l'image de profil
+const profileImage = './pfofil.jpg';
 
 function App() {
 
@@ -13,7 +15,7 @@ function App() {
         <aside className="bg-blue-700 text-white p-6 space-y-6">
           <div className="flex flex-col items-center">
             <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-white">
-              <img src="/public/pfofil.jpg" alt="Photo de profil" className="object-cover w-full h-full transition-transform duration-300 transform hover:scale-110" />
+              <img src={profileImage} alt="Photo de profil" className="object-cover w-full h-full transition-transform duration-300 transform hover:scale-110" />
             </div>
             <h1 className="text-2xl font-bold mt-4">Aubin Boris Simo</h1>
             <h2 className="text-sm text-blue-200">Développeur Web & Web Designer</h2>
