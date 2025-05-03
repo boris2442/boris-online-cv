@@ -1,0 +1,29 @@
+@import "tailwindcss";
+.fade-in {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.progress-bar {
+    height: 10px;
+    border-radius: 5px;
+}
+
+.react {
+    background-color: #61DAFB;
+
+
+}
+
+.wordpress {
+    background-color: #0f766e
+}
